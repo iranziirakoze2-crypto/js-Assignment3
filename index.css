@@ -79,3 +79,21 @@ p{
     flex-direction: row;
     gap: 50px;
 }
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    border: 3px solid rgba(0, 0, 255, 0.219);
+    
+}
+
+th{
+    background-color: rgba(0, 0, 255, 0.278);
+}

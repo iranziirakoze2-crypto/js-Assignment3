@@ -64,6 +64,7 @@ function addhimorher() {
 
     // adding new data next to each other (Columns/Cells)
     newRow.innerHTML = `
+        
         <td>${studentName}</td>
         <td>${course1Name}</td>
         <td>${course2Name}</td>
