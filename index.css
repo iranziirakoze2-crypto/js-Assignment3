@@ -1,0 +1,81 @@
+h1{
+    padding-left: 100px;
+   
+}
+
+ .altogether{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+     border:3px solid rgba(0, 128, 0, 0.673);
+     border-radius: 8px;
+}
+
+#student{
+    width: 15rem;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.667);
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+     font-size: 100%;
+}
+
+.coursea{
+    margin-bottom: 30px;
+}
+
+.courseb{
+    margin-bottom: 30px;
+}
+
+.course{
+    margin-right: 25px;
+    border-radius: 8px;
+    padding-left: 20px;
+    height: 30px;
+    font-size: 100%;
+}
+
+.coursemarks{
+
+    margin-right: 25px;
+    border-radius: 8px;
+    padding-left: 20px;
+    height: 30px;
+    font-size: 100%;
+}
+button{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgba(0, 128, 0, 0.627);
+    color: rgba(255, 255, 255, 0.693);
+    font-size: 100%;
+    border: none;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.836);
+    color: rgba(0, 128, 0, 0.737);
+   
+}
+
+
+p{
+    font-size: 150%;
+    background-color: rgba(255, 255, 0, 0.511);
+     padding: 20px;
+    width: 170px;
+    border-radius: 8px;
+  
+
+}
+
+.totals{
+       display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="./index.css">
+    <title>javascript going on</title>
+</head>
+<body>
+    <h1>Online Result Management Of Students</h1>
+      <!-- FORM -->
+    <section class="altogether">
+       <div>
+
+        <input type="text" placeholder="Enter Student Full Name" id="student">
+
+        <div class="coursea">
+        <input type="text" placeholder="Enter Course1" id="course1" class="course">
+        <input type="text" placeholder="Enter Course1 Marks" id="coursemarks1" class="coursemarks">
+        </div>
+       
+        <div class="courseb">
+           <input type="text" placeholder="Enter Course2" id="course2" class="course">
+        <input type="text" placeholder="Enter Course2 Marks" id="coursemarks2" class="coursemarks">  
+        </div>
+       
+        <button onclick="addhimorher()">
+            Add Student
+        </button>
+       </div> 
+        <!-- TABLE -->
+       <table border="1px" width="100%" cellpadding="20px">
+
+        <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Course1</th>
+                    <th>Course2</th>
+                    <th>Course Marks1</th>
+                    <th>Course Marks2</th>
+                    <th>Average Marks</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+               <tbody id="tableDisplay">
+
+            </tbody>
+       </table>
+
+       <div class="totals">
+         <p>Total Students: <span id="totalStudents">0</span></p>
+<p>Passed: <span id="totalPassed">0</span></p>
+<p>Failed: <span id="totalFailed">0</span></p>
+       </div>
+       
+    </section>
+<script src="./script.js"></script>    
+</body>
+</html>
